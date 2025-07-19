@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificados de Accionistas - Banco de Bogotá</title>
+    <link rel="stylesheet" href="../css/certificadoAccionista.css">
+</head>
+<body>
+    <!-- Main Container -->
+    <div class="main-container">
+        <!-- Header -->
+        <header class="header">
+            <div class="container">
+                <div class="logo">
+                    <img src="../imagenes/index/logo-bogota-interno.png" alt="Banco de Bogotá">
+                </div>
+            </div>
+        </header>
+
+        <!-- Dotted Line -->
+        <div class="dotted-line"></div>
+
+        <!-- Form Section -->
+        <section class="form-section">
+            <div class="container">
+                <div class="form-container">
+                    <div class="form-header">
+                        <h1>Certificados declaración de renta accionistas Banco de Bogotá</h1>
+                        <p class="form-subtitle">Todos los campos son obligatorios</p>
+                    </div>
+
+                    <form class="certificate-form">
+                        <div class="form-group">
+                            <label for="documentType">Tipo de documento de identificación</label>
+                            <select id="documentType" name="documentType" required>
+                                <option value="">Seleccione...</option>
+                                <option value="CC">Cédula de Ciudadanía</option>
+                                <option value="CE">Cédula de Extranjería</option>
+                                <option value="PAS">Pasaporte</option>
+                                <option value="NIT">NIT</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="documentNumber">Número de documento de identificación</label>
+                            <input type="text" id="documentNumber" name="documentNumber" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="accountNumber">Número de cuenta inversionista <span class="info-icon">ⓘ</span></label>
+                            <input type="text" id="accountNumber" name="accountNumber" required>
+                        </div>
+
+                        <div class="form-actions">
+                            <button type="submit" class="btn-consultar">Consultar</button>
+                        </div>
+                    </form>
+
+                    <div class="form-footer">
+                        <p>Si usted no conoce su número de cuenta inversionista o no puede descargar su certificado por favor comuníquese con el Banco de Bogotá en el teléfono 332 00 32 Ext: 1104 - 1521 - 1273 y 1175.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dotted Line -->
+        <div class="dotted-line"></div>
+
+        <!-- Footer Logos -->
+        <footer class="footer-logos">
+            <div class="container">
+                <div class="logos-container">
+                    <div class="logo-item">
+                        <img src="../imagenes/index/logo-bogota-interno.png" alt="Norton Secured">
+                    </div>
+                    <div class="logo-item">
+                        <img src="../imagenes/index/logo-aval-footer.jpg" alt="Superintendencia Financiera">
+                    </div>
+                    <div class="logo-item">
+                        <img src="../imagenes/index/logo-red-aval.jpg" alt="A Toda Hora S.A.">
+                    </div>
+                    <div class="logo-item">
+                        <img src="../imagenes/index/logo-aval-footer.jpg" alt="Grupo Aval">
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="../js/certificadoAccionista.js"></script>
+</body>
+</html>
